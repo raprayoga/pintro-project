@@ -1,38 +1,44 @@
-<template>
-  <button type="button" :class="classes" @click="onClick" :style="style">
-    {{ label }}
-  </button>
-</template>
+<script setup lang="ts">
+import { cn } from "@/utils";
+import { cva, type VariantProps } from "class-variance-authority";
 
-<script lang="ts" setup>
-import { computed } from "vue";
+const buttonVariants = cva(
+  "px-5 flex items-center justify-center text-center lg:text-sm text-xs font-bold tracking-wide rounded-full cursor-pointer disabled:cursor-not-allowed",
+  {
+    variants: {
+      variant: {
+        black: "bg-black text-white",
+        white: "bg-white text-black",
+      },
+    },
+    defaultVariants: {
+      variant: "black",
+    },
+  }
+);
 
-const props = withDefaults(
-  defineProps<{
-    label: string;
-    primary?: boolean;
-    size?: "small" | "medium" | "large";
-    backgroundColor?: string;
-  }>(),
-  { primary: false }
+type ButtonProps = VariantProps<typeof buttonVariants>;
+
+withDefaults(
+  defineProps<{ variant: ButtonProps["variant"]; label: string }>(),
+  {
+    variant: "black",
+  }
 );
 
 const emit = defineEmits<{
   (e: "click", id: number): void;
 }>();
 
-const classes = computed(() => ({
-  "storybook-button": true,
-  "storybook-button--primary": props.primary,
-  "storybook-button--secondary": !props.primary,
-  [`storybook-button--${props.size || "medium"}`]: true,
-}));
-
-const style = computed(() => ({
-  backgroundColor: props.backgroundColor,
-}));
-
 const onClick = () => {
   emit("click", 1);
 };
 </script>
+
+<template>
+  <button :class="cn(buttonVariants({ variant }))" @click="onClick">
+    {{ label }}
+  </button>
+</template>
+
+<style scoped></style>
