@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { cn } from "@/utils"
 import { cva, type VariantProps } from "class-variance-authority"
+import { ButtonHTMLAttributes } from "vue";
 
 const buttonVariants = cva(
   "px-5 flex items-center justify-center text-center lg:text-sm text-xs font-bold tracking-wide rounded-full cursor-pointer disabled:cursor-not-allowed",
@@ -20,7 +21,7 @@ const buttonVariants = cva(
 type ButtonProps = VariantProps<typeof buttonVariants>
 
 withDefaults(
-  defineProps<{ variant: ButtonProps["variant"]; label: string }>(),
+  defineProps<{ variant: ButtonProps["variant"]; label: string; props?: ButtonHTMLAttributes }>(),
   {
     variant: "black",
   }
@@ -36,9 +37,7 @@ const onClick = () => {
 </script>
 
 <template>
-  <button :class="cn(buttonVariants({ variant }))" @click="onClick">
+  <button :class="cn(buttonVariants({ variant }), props?.class)" v-bind="props" @click="onClick">
     {{ label }}
   </button>
 </template>
-
-<style scoped></style>
