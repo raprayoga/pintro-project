@@ -18,7 +18,7 @@ export default {
         "gray-2": "#4F4F4F",
         "gray-4": "#BDBDBD",
         cream: "#F2C94C33",
-        white: "#F2C94C33",
+        white: "#FFFFFF",
       },
     },
   },
