@@ -3,31 +3,28 @@ import { cn } from "@/utils"
 import { cva, type VariantProps } from "class-variance-authority"
 import { HTMLAttributes } from "vue"
 
-const cardVariants = cva(
-  "flex items-center justify-center text-center lg:text-sm text-xs text-white tracking-wide",
-  {
-    variants: {
-      variant: {
-        primary: "bg-primary",
-        black: "bg-black",
-        green: "bg-green",
-        blue: "bg-blue",
-        yellow: "bg-yellow",
-        cream: "bg-cream",
-        "dark-purple": "bg-dark-purple",
-        white: "bg-white text-black",
-      },
-      size: {
-        lg: "rounded-xl p-3.5",
-        sm: "rounded-lg p-2.5",
-      },
+const cardVariants = cva(" lg:text-sm text-xs text-white tracking-wide", {
+  variants: {
+    variant: {
+      primary: "bg-primary",
+      black: "bg-black",
+      green: "bg-green",
+      blue: "bg-blue",
+      yellow: "bg-yellow",
+      cream: "bg-cream",
+      "dark-purple": "bg-dark-purple",
+      white: "bg-white text-black",
     },
-    defaultVariants: {
-      variant: "black",
-      size: "sm",
+    size: {
+      lg: "rounded-xl p-3.5",
+      sm: "rounded-lg p-2.5",
     },
-  }
-)
+  },
+  defaultVariants: {
+    variant: "black",
+    size: "sm",
+  },
+})
 
 type ButtonProps = VariantProps<typeof cardVariants>
 
