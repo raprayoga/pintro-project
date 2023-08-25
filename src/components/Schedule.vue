@@ -3,7 +3,11 @@ import BaseCard from "./BaseCard.vue"
 </script>
 
 <template>
-  <div class="flex flex-col w-full h-full bg-white p-[30px]">
+  <BaseCard
+    variant="white"
+    size="lg"
+    class="flex flex-col items-stretch w-full h-full bg-white p-[30px]"
+  >
     <div class="relative">
       <img
         src="@/assets/images/schedule-banner.png"
@@ -69,5 +73,5 @@ import BaseCard from "./BaseCard.vue"
       <p class="text-sm font-semibold">Hari Ini</p>
       <p class="text-blue text-sm font-semibold">25-27 ></p>
     </div>
-  </div>
+  </BaseCard>
 </template>

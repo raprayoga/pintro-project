@@ -21,7 +21,7 @@ const actives = reactive([
     id="sidenav"
     class="h-screen bg-primary w-[96px] hover:w-[337px] py-2.5 px-5 overflow-y-auto overflow-x-hidden duration-300"
   >
-    <div class="h-[100px] flex align-middle w-[300px]">
+    <div class="h-[100px] flex align-middle">
       <img
         src="@/assets/images/logo.png"
         alt="brand logo"
