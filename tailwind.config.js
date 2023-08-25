@@ -21,6 +21,9 @@ export default {
         cream: "#F2C94C33",
         white: "#FFFFFF",
       },
+      borderRadius: {
+        "lg-1": "10px",
+      },
     },
   },
   plugins: [],
