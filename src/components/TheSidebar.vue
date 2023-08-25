@@ -19,7 +19,7 @@ const actives = reactive([
 <template>
   <aside
     id="sidenav"
-    class="h-screen bg-primary w-[90px] hover:w-[337px] py-2.5 px-5 overflow-y-auto overflow-x-hidden duration-300"
+    class="h-screen bg-primary w-[96px] hover:w-[337px] py-2.5 px-5 overflow-y-auto overflow-x-hidden duration-300"
   >
     <div class="h-[100px] flex align-middle w-[300px]">
       <img
