@@ -5,11 +5,10 @@ import BaseCard from "./BaseCard.vue"
 <template>
   <BaseCard
     variant="white"
-    size="lg"
     class-name="p-[30px] flex flex-col items-stretch text-left h-full"
   >
     <div class="flex gap-1 justify-start">
-      <BaseCard variant="blue" class-name="opacity-60">
+      <BaseCard variant="blue" size="sm" class-name="opacity-60">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="27"

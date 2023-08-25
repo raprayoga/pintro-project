@@ -5,7 +5,6 @@ import BaseCard from "./BaseCard.vue"
 <template>
   <BaseCard
     variant="white"
-    size="lg"
     class="flex flex-col items-stretch w-full h-full bg-white p-[30px]"
   >
     <div class="relative">
@@ -29,15 +28,15 @@ import BaseCard from "./BaseCard.vue"
         <p class="border-b-4 border-b-green w-min mt-[18px]">23</p>
       </div>
       <div class="w-5/6 flex flex-col gap-[15px]">
-        <BaseCard variant="green" size="lg" class-name="text-sm">
+        <BaseCard variant="green" class-name="text-sm">
           Kunjungan ke musium dinosaurus
         </BaseCard>
 
-        <BaseCard variant="green" size="lg" class-name="text-sm">
+        <BaseCard variant="green" class-name="text-sm">
           Pengumpulan Tugas Tematik - ..
         </BaseCard>
 
-        <BaseCard variant="green" size="lg" class-name="text-sm"
+        <BaseCard variant="green" class-name="text-sm"
           >Kelas Online bersama Ibu Jamila...
         </BaseCard>
       </div>
@@ -51,19 +50,11 @@ import BaseCard from "./BaseCard.vue"
         <p class="w-min mt-[18px]">23</p>
       </div>
       <div class="w-5/6 flex flex-col gap-[15px]">
-        <BaseCard
-          variant="cream"
-          size="lg"
-          class-name="text-dark-green text-sm"
-        >
+        <BaseCard variant="cream" class-name="text-dark-green text-sm">
           Kunjungan ke musium dinosaurus
         </BaseCard>
 
-        <BaseCard
-          variant="cream"
-          size="lg"
-          class-name="text-dark-green text-sm"
-        >
+        <BaseCard variant="cream" class-name="text-dark-green text-sm">
           Pengumpulan Tugas Tematik - ..
         </BaseCard>
       </div>

@@ -17,12 +17,13 @@ const cardVariants = cva(" lg:text-sm text-xs text-white tracking-wide", {
     },
     size: {
       lg: "rounded-xl p-3.5",
+      md: "rounded-lg-1 p-3.5",
       sm: "rounded-lg p-2.5",
     },
   },
   defaultVariants: {
     variant: "black",
-    size: "sm",
+    size: "md",
   },
 })
 
@@ -37,7 +38,7 @@ withDefaults(
   }>(),
   {
     variant: "black",
-    size: "sm",
+    size: "md",
     className: "",
   }
 )
