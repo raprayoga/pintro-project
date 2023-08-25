@@ -6,7 +6,7 @@ export default {
       colors: {
         primary: "#0D2B5B",
         green: "#6FCF97",
-        "dark-greem": "#439696",
+        "dark-green": "#439696",
         "green-tosca": "#80FFDB",
         "dark-purple": "#4C3B73",
         blue: "#2F80ED",

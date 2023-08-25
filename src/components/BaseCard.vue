@@ -13,6 +13,7 @@ const cardVariants = cva(
         green: "bg-green",
         blue: "bg-blue",
         yellow: "bg-yellow",
+        cream: "bg-cream",
         "dark-purple": "bg-dark-purple",
         white: "bg-white text-black",
       },

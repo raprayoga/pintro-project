@@ -18,6 +18,7 @@ const meta: Meta<typeof BaseCard> = {
         "yellow",
         "dark-purple",
         "white",
+        "cream",
       ],
     },
     onClick: { action: "clicked" },
