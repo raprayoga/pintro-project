@@ -15,7 +15,7 @@ export default {
         red: "#EB5757",
         mint: "#DFFFF6",
         "gray-1": "#333333",
-        "gray-3": "#3333331a",
+        "gray-3": "#F2F2F2",
         "gray-2": "#4F4F4F",
         "gray-4": "#BDBDBD",
         cream: "#F2C94C33",
