@@ -54,20 +54,22 @@ import BaseCard from "./BaseCard.vue"
           />
         </svg>
       </BaseCard>
-      <div class="text-left ml-[30px]">
-        <p class="text-lg font-semibold">Agenda Lorem Ipsum</p>
-        <p class="text-dark-green font-medium text-[13px]">
+      <div class="flex flex-col justify-around text-left ml-5 md:ml-[30px]">
+        <p class="text-[17px] md:text-lg font-semibold">Agenda Lorem Ipsum</p>
+        <p class="text-dark-green font-medium text-3 md:text-[13px]">
           Dibimbing oleh Bpk Sumardi
         </p>
       </div>
     </div>
-    <div class="flex-grow mt-[60px]">
-      <ol class="text-gray-2">
+    <div class="flex-grow md:mt-[60px] my-[30px]">
+      <ol class="text-gray-2 font-medium">
         <li>1. Please, download a video below and watch it.</li>
         <li>2. JUMP ROPE (15 SECOND) activities</li>
         <li>3. Take a picture or video when doing it...</li>
       </ol>
     </div>
-    <p class="text-2xl text-gray-1 font-semibold">3 Apr 2021, 23:00</p>
+    <p class="text-2.5 md:text-2xl text-gray-1 font-semibold">
+      3 Apr 2021, 23:00
+    </p>
   </BaseCard>
 </template>

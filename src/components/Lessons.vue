@@ -10,7 +10,7 @@ import BaseButton from "./BaseButton.vue"
     class="flex flex-col w-full h-full bg-white p-[30px]"
   >
     <div class="flex justify-between mb-10">
-      <p class="text-lg font-semibolds">Jadwal Hari Ini</p>
+      <p class="text-[17px] md:text-lg font-semibold">Jadwal Hari Ini</p>
       <BaseButton variant="gray" class-name="w-[110px] justify-between">
         Hari Ini
         <svg
@@ -37,7 +37,9 @@ import BaseButton from "./BaseButton.vue"
         />
         <div>
           <p class="text-sm font-semibold text-gray-1">Pendidikan Agama</p>
-          <p class="text-dark-green text-sm font-medium leading-5">
+          <p
+            class="text-dark-green text-[10xp] md:text-sm font-medium leading-5"
+          >
             E312 &#9679; 08.00 - 10.00
           </p>
         </div>
@@ -51,7 +53,9 @@ import BaseButton from "./BaseButton.vue"
         />
         <div>
           <p class="text-sm font-semibold text-gray-1">Matematika</p>
-          <p class="text-dark-green text-sm font-medium leading-5">
+          <p
+            class="text-dark-green text-[10xp] md:text-sm font-medium leading-5"
+          >
             E312 &#9679; 08.00 - 10.00
           </p>
         </div>
@@ -65,7 +69,9 @@ import BaseButton from "./BaseButton.vue"
         />
         <div>
           <p class="text-sm font-semibold text-gray-1">Olahraga</p>
-          <p class="text-dark-green text-sm font-medium leading-5">
+          <p
+            class="text-dark-green text-[10xp] md:text-sm font-medium leading-5"
+          >
             E312 &#9679; 08.00 - 10.00
           </p>
         </div>
@@ -79,7 +85,9 @@ import BaseButton from "./BaseButton.vue"
         />
         <div>
           <p class="text-sm font-semibold text-gray-1">Pendidikan Agama</p>
-          <p class="text-dark-green text-sm font-medium leading-5">
+          <p
+            class="text-dark-green text-[10xp] md:text-sm font-medium leading-5"
+          >
             E312 &#9679; 08.00 - 10.00
           </p>
         </div>
