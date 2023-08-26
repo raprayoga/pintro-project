@@ -4,7 +4,7 @@ import { cva, type VariantProps } from "class-variance-authority"
 import { HTMLAttributes } from "vue"
 
 const badgeVariant = cva(
-  "flex items-center justify-center text-center text-[10px] text-white rounded-full",
+  "flex items-center justify-center text-center text-2.5 text-white rounded-full",
   {
     variants: {
       variant: {
