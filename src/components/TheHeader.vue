@@ -3,8 +3,10 @@ import BaseBadge from "./BaseBadge.vue"
 </script>
 
 <template>
-  <div class="w-full bg-white px-2">
-    <div class="flex items-center justify-between h-[80px] max-w-[1184px]">
+  <header class="w-full bg-white px-2">
+    <div
+      class="flex items-center justify-between h-[80px] max-w-[1184px] mx-auto"
+    >
       <img src="@/assets/images/icons/rectang-icon.png" alt="rectang icon" />
       <div class="flex items-center">
         <div class="relative">
@@ -42,5 +44,5 @@ import BaseBadge from "./BaseBadge.vue"
         </svg>
       </div>
     </div>
-  </div>
+  </header>
 </template>

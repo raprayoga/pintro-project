@@ -57,18 +57,22 @@ import BaseCard from "./BaseCard.vue"
           />
         </svg>
       </BaseCard>
-      <div class="text-left ml-[30px]">
-        <p class="text-lg font-semibold">Tugas</p>
-        <p class="text-dark-green font-medium text-[13px]">
+      <div class="text-left ml-[30px] flex flex-col justify-between">
+        <p class="text-[17px] md:text-lg font-semibold">Tugas</p>
+        <p class="text-dark-green font-medium text-3 md:text-[13px]">
           Jangan lewatkan tugas
         </p>
       </div>
     </div>
     <div class="flex-grow mt-[60px]">
-      <p class="text-2xl font-semibold">Tugas Bab 1</p>
-      <p class="text-[13px] font-semibold text-dark-green mt-3">Bpk Sumardi</p>
+      <p class="text-[22px] md:text-2xl font-semibold">Tugas Bab 1</p>
+      <p class="text-3 md:text-[13px] font-semibold text-dark-green mt-3">
+        Bpk Sumardi
+      </p>
     </div>
-    <p class="flex-grow text-2xl text-red font-semibold">3 April 2021</p>
+    <p class="flex-grow text-[22px] md:text-2xl text-red font-semibold">
+      3 April 2021
+    </p>
     <img
       src="@/assets/images/icons/ball-group.png"
       alt="bubble"

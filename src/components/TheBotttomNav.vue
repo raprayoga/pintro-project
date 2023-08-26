@@ -3,7 +3,7 @@
 <template>
   <div
     id="bottom-nav"
-    class="flex w-full items-end justify-between max-w-[1184px] h-[57px] bg-white px-4 pb-3 text-[10px] font-semibold"
+    class="flex w-full items-end justify-between max-w-[1184px] h-[57px] bg-white px-4 pb-3 text-2.5 font-semibold"
   >
     <div class="flex items-center flex-col border-t-2 border-t-blue pt-2.5">
       <svg
@@ -30,7 +30,7 @@
           </clipPath>
         </defs>
       </svg>
-      <p class="text-blue">Home</p>
+      <p class="text-[10px] text-blue">Home</p>
     </div>
 
     <div class="flex items-center flex-col">
@@ -62,12 +62,12 @@
           fill="#4F4F4F"
         />
       </svg>
-      <p>Transaksi</p>
+      <p class="text-[10px]">Transaksi</p>
     </div>
 
     <div class="flex items-center flex-col">
       <img src="@/assets/images/icons/rocket-icon.png" alt="rocket icon" />
-      <p>Tugas</p>
+      <p class="text-[10px]">Tugas</p>
     </div>
 
     <div class="flex items-center flex-col">
@@ -99,7 +99,7 @@
           </clipPath>
         </defs>
       </svg>
-      <p>Akun</p>
+      <p class="text-[10px]">Akun</p>
     </div>
   </div>
 </template>
