@@ -10,10 +10,12 @@ const cardVariants = cva(" lg:text-sm text-xs text-white tracking-wide", {
       black: "bg-black",
       green: "bg-green",
       blue: "bg-blue",
+      "soft-blue": "bg-soft-blue",
       yellow: "bg-yellow",
       cream: "bg-cream",
       "dark-purple": "bg-dark-purple",
       white: "bg-white text-black",
+      "gray-3": "bg-gray-3",
     },
     size: {
       lg: "rounded-xl p-3.5",

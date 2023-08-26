@@ -22,15 +22,24 @@ import BaseBadge from "./BaseBadge.vue"
           alt="user icon"
           class="w-[30px] h-[30px] ml-9 mr-4"
         />
-        <div>
+        <div class="mr-[15px]">
           <p class="font-semibold text-sm">Ririh Kantilaras</p>
           <span class="text-gray-4 text-xs">SMPN 1 Setiabudi</span>
         </div>
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/9/96/Chevron-icon-drop-down-menu-WHITE.png"
-          class="h-2 w-3"
-          alt="arrow"
-        />
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+        >
+          <path
+            d="M19.8145 11.9999L12.0003 19.814L4.18622 11.9999"
+            stroke="black"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
       </div>
     </div>
   </div>
