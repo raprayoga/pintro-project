@@ -1,8 +1,8 @@
-import News from './News.vue'
+import News from "./News.vue"
 
-describe('<News />', () => {
-  it('renders', () => {
+describe("<News />", () => {
+  it("renders", () => {
     // see: https://on.cypress.io/mounting-vue
-    cy.mount(News)
+    cy.mount<any>(News)
   })
 })

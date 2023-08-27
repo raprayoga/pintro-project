@@ -1,8 +1,8 @@
-import Task from './Task.vue'
+import Task from "./Task.vue"
 
-describe('<Task />', () => {
-  it('renders', () => {
+describe("<Task />", () => {
+  it("renders", () => {
     // see: https://on.cypress.io/mounting-vue
-    cy.mount(Task)
+    cy.mount<any>(Task)
   })
 })

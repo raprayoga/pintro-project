@@ -3,7 +3,7 @@ import BaseBadge from "./BaseBadge.vue"
 describe("<BaseBadge />", () => {
   it("renders", () => {
     // see: https://on.cypress.io/mounting-vue
-    cy.mount(BaseBadge, {
+    cy.mount<any>(BaseBadge, {
       props: {
         variant: "red",
         size: "sm",

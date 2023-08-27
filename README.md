@@ -38,8 +38,6 @@
 
 This application is a Dashboard vue student app in desktop and mobile view
 
-You can visit the app [here](https://phone-book-project-git-develop-raprayoga.vercel.app/) too.
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With

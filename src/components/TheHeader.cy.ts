@@ -1,8 +1,8 @@
-import TheHeader from './TheHeader.vue'
+import TheHeader from "./TheHeader.vue"
 
-describe('<TheHeader />', () => {
-  it('renders', () => {
+describe("<TheHeader />", () => {
+  it("renders", () => {
     // see: https://on.cypress.io/mounting-vue
-    cy.mount(TheHeader)
+    cy.mount<any>(TheHeader)
   })
 })

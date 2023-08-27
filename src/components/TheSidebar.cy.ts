@@ -1,8 +1,8 @@
-import TheSidebar from './TheSidebar.vue'
+import TheSidebar from "./TheSidebar.vue"
 
-describe('<TheSidebar />', () => {
-  it('renders', () => {
+describe("<TheSidebar />", () => {
+  it("renders", () => {
     // see: https://on.cypress.io/mounting-vue
-    cy.mount(TheSidebar)
+    cy.mount<any>(TheSidebar)
   })
 })

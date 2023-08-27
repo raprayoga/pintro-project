@@ -3,7 +3,7 @@ import BaseCard from "./BaseCard.vue"
 describe("<BaseCard />", () => {
   it("renders", () => {
     // see: https://on.cypress.io/mounting-vue
-    cy.mount(BaseCard, {
+    cy.mount<any>(BaseCard, {
       props: {
         variant: "blue",
         size: "sm",

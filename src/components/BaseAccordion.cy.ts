@@ -9,7 +9,7 @@ const classVisible = "visible"
 describe("<BaseAccordion />", () => {
   it("renders", () => {
     // see: https://on.cypress.io/mounting-vue
-    cy.mount(BaseAccordion, {
+    cy.mount<any>(BaseAccordion, {
       props: {
         className: classContaner,
       },

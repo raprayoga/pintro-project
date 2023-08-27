@@ -1,8 +1,8 @@
-import Bio from './Bio.vue'
+import Bio from "./Bio.vue"
 
-describe('<Bio />', () => {
-  it('renders', () => {
+describe("<Bio />", () => {
+  it("renders", () => {
     // see: https://on.cypress.io/mounting-vue
-    cy.mount(Bio)
+    cy.mount<any>(Bio)
   })
 })
